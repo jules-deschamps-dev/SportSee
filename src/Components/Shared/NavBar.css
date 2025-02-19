@@ -1,0 +1,42 @@
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: var(--navbar-height);
+  background-color: #020203;
+}
+
+nav img {
+  margin-left: 28px;
+}
+
+
+nav h1 {
+  color: #E60001;
+  padding-left: 12px;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+nav ul li {
+  margin: 0 6rem;
+  font-weight: bold;
+}
+nav ul li:last-child {
+  margin-right: 12rem;
+  font-weight: bold;
+}
